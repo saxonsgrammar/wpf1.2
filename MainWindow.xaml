@@ -1,0 +1,34 @@
+﻿<Window x:Class="_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2"
+        mc:Ignorable="d"
+        Title="wpf1.2" Height="250" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+            <WrapPanel>
+                <Button Margin="2.0" MinWidth="100" Background="Navy">Navy</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Blue">Blue</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Aqua">Aqua</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Teal">Teal</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Olive">Olive</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Green">Green</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Lime">Lime</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Yellow">Yellow</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Orange">Orange</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Red">Red</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Maroon">Maroon</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Fuchsia">Fuchsia</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Purple">Purple</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Black">Black</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Silver">Silver</Button>
+                <Button Margin="2.0" MinWidth="100" Background="Gray">Gray</Button>
+                <Button Margin="2.0" MinWidth="100" Background="White">White</Button>
+             </WrapPanel>
+    </Grid>
+</Window>
